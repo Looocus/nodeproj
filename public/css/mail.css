@@ -1,0 +1,65 @@
+form {
+      width: 300px;
+      position: relative;
+      margin: 0 auto;
+      padding: 20px 10px;
+      background-color: #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    form .header {
+      position: relative;
+      height: 50px;
+      padding: 0 20px 0 0;
+    }
+    form .header:after{
+      content: ".";
+      width: 100%;
+      display: block;
+      clear: both;
+    }
+    form .header h1 {
+      position: absolute;
+      vertical-align: middle;
+      margin: 0 auto;
+      font-size: 30px;
+      color: #999;
+      top :50%;
+      transform: translate(0, -50%);
+      left: 0;
+      width: 60%;
+    }
+    form .header img {
+      position: absolute;
+      top :50%;
+      transform: translate(0, -50%);
+      right: 0;
+      width: 8%;
+    }
+    form .codeBanner .btnDiv {
+      position: relative;
+    }
+    form .codeBanner input[type="button"] {
+      background: #F66 url('../img/mail.png');
+      background-repeat: no-repeat;
+      border: 0;
+      padding: 0 0 0 30px;
+      height: 28px;
+      width: 35%;
+    }
+    form .codeBanner input[type="text"] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 28px;
+      width: 60%;
+    }
+    form .footer h1 {
+      margin: 0 auto;
+      font-size: 30px;
+      color: #999;
+    }
+    form .footer input {
+      margin-top: 15px;
+      background: #F66;
+    }
